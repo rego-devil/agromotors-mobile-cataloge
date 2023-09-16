@@ -578,7 +578,7 @@ img.grayscale {
     }
 
 
-    .mobileCatalogeBtn .text { writing-mode: vertical-lr; text-orientation: upright; font-weight: bold; font-size: 20px; text-align: center; display: block; margin: 0 auto; letter-spacing: -6px;}
+    .mobileCatalogeBtn .text { writing-mode: vertical-lr; text-orientation: upright; font-weight: bold; font-size: 20px; text-align: center; display: block; margin: 0 auto; letter-spacing: -2px;}
 }
 
 
@@ -607,18 +607,18 @@ img.grayscale {
 @media (min-width: 768px) { .mobileCataloge .mm__wrapper { width: 35%; } }
 @media (min-width: 1200px) { .mobileCataloge .mm__wrapper { width: 25%; } }
 
-.mobileCataloge__inner { margin-top: -45px;}
+.mobileCataloge__inner { margin-top: -60px;}
    
       
 /*Стили крестика закрытия меню*/
-.mobileCataloge  .close-btn { display: block; position: sticky; top: 15px; right: 0; left:100%; margin-right: 15px; margin-top: 15px; width: 30px; height: 30px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); cursor: pointer; }
+.mobileCataloge  .close-btn { display: block; position: sticky; top: 15px; right: 0; left:100%; margin-right: 15px; margin-top: 15px; width: 45px; height: 45px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); cursor: pointer; }
 .mobileCataloge  .close-btn {
     background: #f4d451;
     border-radius: 50%;
 }
 
-.close-btn:before { width: 2px; height: 18px; left: 14px; top: 6px; }
-.close-btn:after { height: 2px; width: 18px; top: 14px; left: 6px; }
+.close-btn:before { width: 2px; height: 30px; left: 22px; top: 8px; }
+.close-btn:after { height: 2px; width: 30px; top: 22px; left: 8px; }
 .close-btn:before, .close-btn:after { content: ""; background: #000;position: absolute; }
 
 @media (max-width: 720px)  { .leftSidebar .catalogBlock { display: none; } }
